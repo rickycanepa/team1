@@ -1,3 +1,34 @@
+body {
+    background-image: url("public/godzilla_background.jpg");
+    }
+    
+    .creatorbio
+    {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 100px;
+    }
+
+    .biopic
+    {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .bio
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: blue;
+        width: 200px;
+    }
+
+    .biobody 
+    {
+     background-color: aliceblue;   
+    }
 
 .holder{
     position:relative;
@@ -36,3 +67,5 @@
     font-weight: bold;
     color: rgb(238, 68, 17);
 }
+
+
