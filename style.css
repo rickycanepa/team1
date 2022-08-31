@@ -1,0 +1,70 @@
+body {
+    background-image: url("public/godzilla_background.jpg");
+    }
+    
+    .creatorbio
+    {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 100px;
+    }
+
+    .biopic
+    {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .bio
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: blue;
+        width: 200px;
+    }
+
+    .biobody 
+    {
+     background-color: aliceblue;   
+    }
+
+.holder{
+    position:relative;
+}
+
+
+.godzilla-img {
+    position:absolute;
+    top: 200px;
+    right: 175px;
+    width: 33%;
+}
+
+@keyframes blink { 
+    50% {border-color: #ff0000;} 
+ }
+
+ .godzilla-img {
+    animation: blink .5s step-end infinite alternate;
+    border: 10px solid yellow;
+
+}
+
+.funkybox{
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    height:300px;
+}
+
+.textbox{
+    position: absolute;
+    top: 480px;
+    right: 265px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(238, 68, 17);
+}
+
