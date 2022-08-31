@@ -11,6 +11,16 @@
     width: 33%;
 }
 
+@keyframes blink { 
+    50% {border-color: #ff0000;} 
+ }
+
+ .godzilla-img {
+    animation: blink .5s step-end infinite alternate;
+    border: 10px solid yellow;
+
+}
+
 .funkybox{
     position: absolute;
     top: 350px;
